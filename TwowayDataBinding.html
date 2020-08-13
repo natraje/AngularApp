@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Two way data binding test</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="vendor/angular.js"></script>
+    <script src="app/app.js"></script>
+</head>
+<style>
+    body {
+        margin-top: 25px;
+    }
+</style>
+
+<body ng-app="dealAvehicle">
+
+    <div class="col-xs-2">
+        <h1> Simple Test</h1>
+        <input type="text" id="centent" class="form-control col-xs-4" ng-model="contetTest" value="" />
+        <h1><label>Content Entered:{{contetTest}}</label></h1>
+    </div>
+    <div class="col-xs-2">
+        <h1> Addition</h1>
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="fNum" />
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="sNum" />
+        <h2><label>Sum: {{fNum+sNum}}</label></h2>
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-bind="{{sNum+fNum}}" />
+
+    </div>
+    <div class="col-xs-2">
+        <h1> Addition</h1>
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="fNum" />
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="sNum" />
+        <h2><label>Sum: {{fNum+sNum}}</label></h2>
+
+    </div>
+    <div class="col-xs-2">
+        <h1> Addition</h1>
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="fNum" />
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="sNum" />
+        <h2><label>Sum: {{fNum+sNum}}</label></h2>
+
+    </div>
+    <div class="col-xs-2">
+        <h1> Addition</h1>
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="fNum" />
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="sNum" />
+        <h2><label>Sum: {{fNum+sNum}}</label></h2>
+
+    </div>
+    <div class="col-xs-2">
+        <h1> Addition</h1>
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="fNum" />
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="sNum" />
+        <h2><label>Sum: {{fNum+sNum}}</label></h2>
+
+    </div>
+    <div class="col-xs-2">
+        <h1> Addition</h1>
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="fNum" />
+        <input type="number" value="" placeholder="Enter number" class="form-control" ng-model="sNum" />
+        <h2><label>Sum: {{fNum+sNum}}</label></h2>
+
+    </div>    
+</body>
+
+</html>
